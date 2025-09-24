@@ -98,9 +98,9 @@ switch($acao){
         header('Location: ../usuarios.php');
         exit;
         break;
+    }
 
-    default:
         header('Location: ../index.php');
-        exit;
-}
+
+
 ?>
